@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "category": "Heart Health",
+      "title": "Mitra-clip procedure for Mitral Valve Regurgitation",
+      "summary": "Mitral Valve is an important valve in the human heart and like any other part of the body, it can also develop a host of conditions. One such condition is Mitral Valve Regurgitation...",
+      "image": "/images/mitral-valve.jpg",
+      "continueReading": "/blog/mitra-clip-procedure"
+    },
+    {
+      "id": 2,
+      "category": "Heart Health",
+      "title": "Significance of Ventricular Assist Devices in Cardiac Support",
+      "summary": "Ventricular Assist Devices (VADs) are mechanical pumps that help a failing heart pump blood effectively. This procedure can be lifesaving...",
+      "image": "/images/ventricular-assist.jpg",
+      "continueReading": "/blog/ventricular-assist-devices"
+    },
+    {
+      "id": 3,
+      "category": "Heart Health",
+      "title": "Holter Monitors – Heart Monitoring for continuous insights",
+      "summary": "Holter monitors are devices used to continuously monitor the electrical activity of the heart over a 24-hour period...",
+      "image": "/images/holter-monitor.jpg",
+      "continueReading": "/blog/holter-monitors"
+    },
+    {
+      "id": 4,
+      "category": "Liver Diseases",
+      "title": "The Link Between Liver Health and Diet – What to Eat for a Healthy Liver",
+      "summary": "The liver is the largest and one of the most important organs of the body. A proper diet can help maintain liver health...",
+      "image": "/images/liver-health.jpg",
+      "continueReading": "/blog/liver-health-diet"
+    },
+    {
+      "id": 5,
+      "category": "Liver Diseases",
+      "title": "What does an Enlarged Liver indicate?",
+      "summary": "Enlarged liver, medically called Hepatomegaly, is a condition where the liver swells beyond its normal size...",
+      "image": "/images/enlarged-liver.jpg",
+      "continueReading": "/blog/enlarged-liver"
+    },
+    {
+      "id": 6,
+      "category": "Geriatrics",
+      "title": "Health Concerns for Seniors and When to Consult a Doctor",
+      "summary": "Seniors face several unique health challenges as they age. It's crucial to know when to consult a healthcare provider...",
+      "image": "/images/senior-health.jpg",
+      "continueReading": "/blog/seniors-health-concerns"
+    },
+    {
+      "id": 7,
+      "category": "Geriatrics",
+      "title": "Community Living – the solution for lonely, helpless elders living alone",
+      "summary": "Community living offers a supportive environment for elders who may be lonely or require assistance...",
+      "image": "/images/community-living.jpg",
+      "continueReading": "/blog/community-living-seniors"
+    },
+    {
+      "id": 8,
+      "category": "Transplantation",
+      "title": "The Role of Robotics in Improving Outcomes of Kidney Transplants",
+      "summary": "Robotic-assisted surgery is transforming kidney transplants by reducing recovery time and improving outcomes...",
+      "image": "/images/robotic-kidney-transplant.jpg",
+      "continueReading": "/blog/robotics-kidney-transplant"
+    },
+    {
+      "id": 9,
+      "category": "Transplantation",
+      "title": "Graft-Versus-Host-Disease prevention after Bone Marrow Transplant",
+      "summary": "GVHD is a common complication after a bone marrow transplant. Here’s how it can be managed...",
+      "image": "/images/gvhd-bone-marrow.jpg",
+      "continueReading": "/blog/gvhd-prevention"
+    },
+    {
+      "id": 10,
+      "category": "Cancer",
+      "title": "Precision Oncology – The latest weapon in our Cancer Crusade",
+      "summary": "Precision Oncology uses genetic understanding of cancer to target specific therapies, improving treatment outcomes...",
+      "image": "/images/precision-oncology.jpg",
+      "continueReading": "/blog/precision-oncology"
+    }
+  ]
+  

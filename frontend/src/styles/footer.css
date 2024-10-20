@@ -1,0 +1,60 @@
+/* ---------------Styling for the footer----------------- */
+footer {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 20%, rgba(0,212,255,1) 100%);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    height: var(--footer-height);
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 20;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section p {
+    margin: 10px 0;
+    color: white;
+}
+
+.footer-section a {
+    color: #ffffff;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+    color: #fcfbfb;
+    font-size: 15px;
+}
+
+.footer-section img {
+    max-width: 100%;
+    height: auto;
+}

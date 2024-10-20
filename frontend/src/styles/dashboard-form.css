@@ -1,0 +1,71 @@
+/*-------- Dashboard Form --------*/
+.dashboard-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(248, 248, 248, 0.5);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+}
+
+.dashboard-container p {
+    text-align: left;
+    color: #001f3f;
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.dashboard-container h2 {
+    margin-top: 0px;
+}
+
+.dashboard-container .dash-group {
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+.dashboard-container .dash-group label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+    width: 250px;
+}
+
+.dashboard-container .dash-group button {
+    background-color: #11003f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.dashboard-container .dash-group button:hover {
+    background-color: #ff7f7f;
+}
+
+
+.patient-list-container
+{
+    
+    
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    margin: 20px auto; /* Centering horizontally with auto margins */
+    display: flex;
+    flex-direction: column; /* Allows stacking elements vertically */
+    width: 100%; /* Width of the container */
+    
+}
+.table{
+    position: relative;
+    overflow-x: auto;
+}

@@ -1,0 +1,199 @@
+[
+    {
+      "id": 1,
+      "name": "Cardiology",
+      "description": "Providing comprehensive cardiac care.",
+      "image": "./images/cardiology.jpg",
+      "contact": "123-456-7890",
+      "location": "2nd Floor, North Wing",
+      "hours": "Monday to Friday, 9 AM - 5 PM",
+      "services": [
+        "Echocardiogram",
+        "Cardiac Catheterization",
+        "Heart Checkup",
+        "24/7 Emergency Cardiac Care"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Oncology",
+      "description": "Advanced cancer treatment and care.",
+      "image": "./images/oncology.jpg",
+      "contact": "234-567-8901",
+      "location": "3rd Floor, South Wing",
+      "hours": "Monday to Saturday, 8 AM - 6 PM",
+      "services": [
+        "Chemotherapy",
+        "Radiation Therapy",
+        "Surgical Oncology",
+        "Supportive Care"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Nephrology and Urology",
+      "description": "Expert care for kidney and urinary tract diseases.",
+      "image": "./images/nephrology.jpg",
+      "contact": "345-678-9012",
+      "location": "1st Floor, East Wing",
+      "hours": "Monday to Friday, 9 AM - 5 PM",
+      "services": [
+        "Dialysis",
+        "Kidney Transplant",
+        "Urology Consultations",
+        "Stone Treatment"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Orthopaedics",
+      "description": "Specialized bone and joint treatment.",
+      "image": "./images/orthopaedics.jpg",
+      "contact": "456-789-0123",
+      "location": "4th Floor, West Wing",
+      "hours": "Monday to Friday, 8 AM - 6 PM",
+      "services": [
+        "Joint Replacement Surgery",
+        "Sports Medicine",
+        "Fracture Management",
+        "Physical Therapy"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Neurology",
+      "description": "Comprehensive neurological care.",
+      "image": "./images/neurology.jpg",
+      "contact": "567-890-1234",
+      "location": "5th Floor, North Wing",
+      "hours": "Monday to Friday, 9 AM - 5 PM",
+      "services": [
+        "Stroke Care",
+        "Epilepsy Management",
+        "Neuropsychology",
+        "Headache Clinics"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Gastroenterology",
+      "description": "Expertise in digestive system health.",
+      "image": "./images/gastroenterology.jpg",
+      "contact": "678-901-2345",
+      "location": "2nd Floor, South Wing",
+      "hours": "Monday to Friday, 9 AM - 5 PM",
+      "services": [
+        "Endoscopy",
+        "Liver Disease Treatment",
+        "IBS Management",
+        "Nutritional Counseling"
+      ]
+    },
+  
+  {
+    "id": 7,
+    "name": "Pediatrics",
+    "description": "Comprehensive healthcare for infants, children, and adolescents.",
+    "image": "./images/pediatrics.jpg",
+    "contact": "789-012-3456",
+    "location": "1st Floor, North Wing",
+    "hours": "Monday to Friday, 9 AM - 5 PM",
+    "services": [
+      "Well-child check-ups",
+      "Vaccinations",
+      "Treatment for common illnesses",
+      "Developmental assessments"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Gynecology and Obstetrics",
+    "description": "Specialized care for women's reproductive health and childbirth.",
+    "image": "./images/gynecology.jpg",
+    "contact": "890-123-4567",
+    "location": "3rd Floor, East Wing",
+    "hours": "Monday to Friday, 9 AM - 5 PM",
+    "services": [
+      "Prenatal care",
+      "Childbirth classes",
+      "Gynecological exams",
+      "Menopause management"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Dermatology",
+    "description": "Diagnosis and treatment of skin conditions.",
+    "image": "./images/dermatology.jpg",
+    "contact": "901-234-5678",
+    "location": "2nd Floor, South Wing",
+    "hours": "Monday to Friday, 8 AM - 5 PM",
+    "services": [
+      "Acne treatment",
+      "Skin cancer screenings",
+      "Eczema management",
+      "Cosmetic dermatology"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Physical Therapy",
+    "description": "Rehabilitation services to improve mobility and quality of life.",
+    "image": "./images/physical-therapy.jpg",
+    "contact": "012-345-6789",
+    "location": "4th Floor, West Wing",
+    "hours": "Monday to Friday, 8 AM - 6 PM",
+    "services": [
+      "Post-surgery rehabilitation",
+      "Pain management",
+      "Sports injury recovery",
+      "Strength training"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Radiology",
+    "description": "Imaging services for diagnosis and treatment.",
+    "image": "./images/radiology.jpg",
+    "contact": "123-456-7891",
+    "location": "5th Floor, East Wing",
+    "hours": "Monday to Friday, 9 AM - 5 PM",
+    "services": [
+      "X-rays",
+      "MRIs",
+      "CT scans",
+      "Ultrasound"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Psychiatry",
+    "description": "Mental health services for various psychological disorders.",
+    "image": "./images/psychiatry.jpg",
+    "contact": "234-567-8902",
+    "location": "1st Floor, North Wing",
+    "hours": "Monday to Friday, 9 AM - 5 PM",
+    "services": [
+      "Therapy sessions",
+      "Medication management",
+      "Substance abuse treatment",
+      "Support groups"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Endocrinology",
+    "description": "Treatment of hormone-related disorders.",
+    "image": "./images/endocrinology.jpg",
+    "contact": "345-678-9013",
+    "location": "2nd Floor, South Wing",
+    "hours": "Monday to Friday, 9 AM - 5 PM",
+    "services": [
+      "Diabetes management",
+      "Thyroid disorders",
+      "Metabolic issues",
+      "Hormonal therapies"
+    ]
+  }
+]
+  

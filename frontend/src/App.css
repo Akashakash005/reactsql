@@ -1,0 +1,1040 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* @charset "ISO-8859-1"; */
+/* Define CSS variables for header and footer heights */
+:root {
+    --header-height: 130px; /* Height of the header */
+    --footer-height: 160px; /* Height of the footer */
+}
+
+main {
+    flex-grow: 1; /* Allow main content to grow and fill available space */
+}
+
+/* Basic styling for the body element */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
+/* Styling for the header element */
+header {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 20%, rgba(0,212,255,1) 100%);
+  display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space items evenly */
+   width: 100%;
+    padding: 10px 20px; /* Padding around the content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    height: var(--header-height); /* Use CSS variable for height */
+    position:static; /* Position relative to stack above other content */
+    z-index: 5; /* Ensure header is above other content */
+    color: white !important;
+}
+
+/* Styling for header left section */
+.header-left img {
+    
+    height: 120px; /* Set height of the image */
+    
+}
+
+
+.header-center{
+    padding-left: 10px;
+    padding-top: 30px;
+    
+  
+    
+}
+
+/* Styling for the center section of the header */
+.header-center h1 {
+    margin: 0; /* Remove default margin */
+    font-size:30px !important; /* Font size for the main title */
+    text-shadow: 1px 1px #ccc; /* Light shadow effect for the text */
+    color: white;
+}
+
+.header-center h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 20px; /* Font size for the subtitle */
+    color: white;
+}
+
+.header-right{
+    padding: 5px 30px;
+}
+
+/*-------------- Navbar container --------------*/
+.top-navbar {
+
+
+    color: #fff; /* White text color */
+    display: flex; /* Flexbox layout */
+    justify-content: right; /* Space items evenly */
+    align-items: center; /* Align items vertically centered */
+   
+   
+    height: 50px; /* Use CSS variable for height */
+    position: relative; /* Position relative to stack above other content */
+    z-index: 5; /* Ensure header is above other content */
+}
+
+.top-navbar:after  {
+ content: '';
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: black;
+  transition: 300ms;
+
+}
+
+/* Links inside the navbar */
+.top-navbar a {
+  color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+     padding: 10px 20px;/* Padding around the link text */
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+.top-navbar a:hover {
+    background-color: #ff7f7f;
+    color: #fff;
+    text-decoration: none !important; /* Force no underline on hover */
+}
+
+
+
+/*-------------- Navbar container --------------*/
+.bot-navbar {
+
+font-size: medium;
+    color: #fff; /* White text color */
+    display: flex; /* Flexbox layout */
+    justify-content: right; /* Space items evenly */
+    align-items: center; /* Align items vertically centered */
+   
+   
+    height: 50px; /* Use CSS variable for height */
+    position: relative; /* Position relative to stack above other content */
+    z-index: 5; /* Ensure header is above other content */
+}
+
+.bot-navbar:after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: black;
+    transition: 300ms;
+
+}
+
+/* Links inside the navbar */
+.bot-navbar a {
+  color: #ffffff; /* White text color */
+  text-decoration: none !important; /* Force no underline on hover */
+     padding: 14px 16px;/* Padding around the link text */
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+    
+    
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+   color:white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.bot-navbar a:hover, .dropdown:hover .dropbtn {
+    color: #fff;
+  box-shadow: inset 200px 0 0 0 #ff7f7f;;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 20%, rgba(0,212,255,1) 100%);/*dropdown content color*/
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:  #ff7f7f;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: calc(100vh-(30px));
+clip-path: inset(0 0 0 0);
+    height: 600px; /* Set the desired height */
+    overflow: hidden; /* Ensure content overflow is hidden */
+    margin-left: 30px;
+    }
+
+
+
+main{
+     
+    padding-top: 50px; /* Padding around the content */
+    padding-bottom: 50px;
+    flex: 1; /* Allow main content to grow and fill available space */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+/* margin-top: 10px; */
+
+
+    padding: 20px;
+    background-image: url('../public/images/blur-hospital.jpg');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white; /* Optional: Change text color for better contrast */
+  }
+  
+
+h2 {
+    text-align: center;
+    color: #001f3f;
+margin-bottom:30px;
+font-size: 30px;
+}
+
+.logout button{
+    background-color: #001057;
+   float: right;
+    color: #fff;
+    border: none;
+top:10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+
+}
+/* Styling for images within the body */
+.body-image {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Styling for body content sections */
+.body-content {
+    padding: 20px;
+ /* Padding around the content */
+}
+
+
+/* Flexbox container for card layout */
+.home-container {
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Wrap items to the next line */
+    gap: 20px; /* Space between items */
+    justify-content: center; /* Center items horizontally */
+}
+
+.section-head {
+margin-bottom:20px;
+font-size:30px;
+text-align:center;
+color:#000000;
+}
+
+
+
+
+/*--------programs section-----------*/
+
+.programs-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+margin-left: 110px; /* Space to fit the sidebar */
+}
+
+.programs-section .left-content {
+    flex: 1;
+    margin-right: 20px;
+margin-bottom :20px;
+}
+
+.programs-section .left-content h2 {
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+margin-bottom:20px;
+}
+
+.programs-section .left-content p {
+    margin-bottom: 20px;
+text-align:justify;
+}
+
+.programs-section .left-content ul {
+    list-style-type: none;
+    padding: 0;
+display: flex;
+flex-wrap: wrap;
+ gap: 20px;
+}
+
+.programs-section .left-content ul li {
+    margin-bottom: 15px;
+ flex: 1 1 calc(50% - 10px);
+
+}
+
+.programs-section .left-content ul li .number {
+    font-size: 2em;
+    font-weight: bold;
+    color: #001f3f;
+    display: block;
+}
+
+.programs-section .left-content ul li .statement {
+    font-size: 1em;
+    color: #555;
+    display: block;
+    margin-top: 5px;
+}
+
+.programs-section .right-content {
+    flex: 1;
+
+    max-width: 60%; /* Adjust this value based on the desired image size */
+}
+
+.programs-section .right-content img {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/*----------- home individual cards--------------- */
+.home-card {
+    background-color: #fff; /* White background color */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    padding: 20px; /* Padding around the content */
+    text-align: center; /* Center text alignment */
+    width: 400px; /* Fixed width */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions for hover effects */
+}
+
+/* Styling for images within cards */
+.home-card img {
+    border-radius: 10px; /* Rounded corners for images */
+    width: 300px; /* Fixed width */
+    height: 200px; /* Fixed height */
+}
+
+/* Styling for card titles */
+.home-card h2 {
+    color: #001f3f; /* Navy blue text color */
+}
+/* Styling for card paragraphs */
+
+.department-item p  , .services-container p ,.home-card p {
+    line-height: 1.5;
+    font-size: medium;
+    color: #000000;
+}
+
+.home-card h3 {
+    margin-top: 15px;
+    color: #8e44ad; /* Purple color for service titles */
+}
+
+.home-card ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #000000;
+}
+
+/* Hover effect for cards */
+.home-card:hover {
+    transform: translateY(-10px); /* Move card up on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+
+
+
+
+
+/* -------------------Registration Form ------------------Styles */
+.registration-form {
+    max-width: 600px;
+
+    margin: 0 auto;
+    background-color:rgba(255, 255, 255, 0.5);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.registration-form h1 {
+    text-align: center;
+    color: #001f3f;
+margin-bottom:30px;
+}
+
+.registration-form .form-group {
+    margin-bottom: 15px;
+margin-left:50px;
+}
+
+.registration-form .form-group label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+width: 150px;
+font-size:medium;
+
+
+}
+
+.registration-form .form-group input,
+.registration-form .form-group select {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+margin-bottom:10px;
+}
+
+.registration-form .form-group .error {
+    color: #ff0000;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.registration-form .form-group .success {
+    color: #28a745;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.registration-form button[type="submit"] {
+    background-color: #001f3f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.registration-form    button[type="button"] , .home-card button[type="button"] {
+    background-color: #001f3f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+.registration-form button[type="submit"]:hover {
+    background-color: #ff7f7f;
+}
+
+
+
+/*------------------------- book an appointment Form Styles ----------------------*/
+
+
+.appointment-form {
+min-height:300px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+.appointment-form h2 {
+    text-align: center;
+    color: #001f3f;
+ margin-bottom: 15px;
+font-size: 2.0em;
+}
+
+
+
+.appointment-form .patient-group {
+    margin-bottom: 15px;
+margin-left:50px;
+}
+
+.appointment-form .patient-group label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+width: 150px;
+
+}
+
+.appointment-form .patient-group input,
+.appointment-form .patient-group select {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+margin-bottom:10px;
+}
+.appointment-form  button[type="submit"] {
+    background-color: #001f3f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+
+/*------------------------- dashboard Form Styles ----------------------*/
+.dashboard-container {
+    max-width: 500px;
+    margin: 0 auto; /* This centers the container */
+    background-color: rgba(248, 248, 248, 0.5);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative; /* Ensure it stays within normal document flow */
+    
+}
+
+
+
+
+.dashboard-container  p {
+    text-align: left;
+    color: #001f3f;
+margin-bottom:30px;
+font-size: 20px;
+margin-left: 50px;
+}
+
+.dashboard-container h2{
+    margin-top: 0px;
+}
+
+.dashboard-container  .dash-group {
+    margin-bottom: 15px;
+margin-left:50px;
+
+}
+
+.dashboard-container .dash-group label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+width: 250px;
+
+}
+
+
+
+
+.dashboard-container .dash-group button {
+    background-color: #11003f;
+   align-items:center;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.dashboard-container .dash-group button:hover {
+    background-color: #ff7f7f;
+}
+
+
+.check-form {
+    max-height: 300px;
+    max-width: 500px;
+    margin: 0 auto; /* Centers the form horizontally */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-bottom: 30px;
+    text-align: center; /* Centers text inside the form */
+}
+
+.check-form h2 {
+    color: #001f3f;
+    margin-bottom: 30px;
+    font-size: 2.0em;
+}
+
+.check-form .check-group {
+    margin-bottom: 15px;
+}
+
+.check-form .check-group label {
+    display: block; /* Make label a block element to occupy the full width */
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.check-form .check-group input {
+    width: calc(100% - 22px); /* Adjust width for padding and border */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.check-form button[type="button"] {
+    background-color: #001f3f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    margin: 5px; /* Add margin for spacing between buttons */
+}
+
+.check-form button[type="button"]:hover {
+    background-color: #ff7f7f;
+}
+
+
+/*------------------------- Login Form Styles ----------------------*/
+.login-container {
+min-height:300px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.4);;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #001f3f;
+ margin-bottom: 15px;
+font-size: 2.0em;
+}
+
+.login-form .form-group {
+    margin-bottom: 15px;
+}
+.login-form .form-group label {
+    color: #000000;
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: medium; /* Force the font size */
+}
+
+
+.login-form .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.login-form button[type="submit"] {
+    background-color: #001f3f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.login-form button[type="submit"]:hover {
+    background-color: #ff7f7f;
+}
+
+.login-form a {
+    color: #001f3f;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/* ---------------Styling for the footer----------------- */
+footer {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 20%, rgba(0,212,255,1) 100%);
+    color: #000000; /* White text color */
+    padding: 20px; /* Padding around the content */
+    text-align: center; /* Center text alignment */
+    height: var(--footer-height); /* Use CSS variable for height */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect similar to header */
+    position: relative; /* Ensure it stays at the bottom */
+    z-index: 20; /* Ensure footer is below other content */
+}
+
+
+/* Flexbox container for footer content */
+.footer-content {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space items evenly */
+    flex-wrap: wrap; /* Wrap items to the next line */
+    gap: 20px; /* Space between items */
+}
+
+/* Styling for individual footer sections */
+.footer-section {
+    flex: 1; /* Allow sections to grow */
+    min-width: 200px; /* Minimum width */
+}
+
+/* Styling for section headers in the footer */
+.footer-section h3 {
+    font-size: 1.2em; /* Font size for section headers */
+    margin-bottom: 10px; /* Space below the header */
+    color: #ffffff; /* White text color */
+}
+
+/* Styling for lists in footer sections */
+.footer-section ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+/* Styling for list items in footer sections */
+.footer-section ul li {
+    margin-bottom: 5px; /* Space below list items */
+}
+
+/* Styling for paragraphs in footer sections */
+.footer-section p {
+    margin: 10px 0; /* Margin around paragraphs */
+    color: white;
+}
+
+/* Styling for links in footer sections */
+.footer-section a {
+    color: #ffffff; /* White text color */
+}
+
+/* Hover effect for links in footer sections */
+.footer-section a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Styling for images in footer sections */
+.footer-section img {
+    max-width: 100%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.table-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    width: 100%; /* Full width of the container */
+    margin: 10px auto 0; /* Increased margin-top for more space above the table */
+}
+
+.bp4-html-table {
+    width: max-content; /* Allows the table to stretch beyond the viewport if needed */
+    border-collapse: collapse; /* Merge borders for a cleaner look */
+    margin-top: 30px; /* Increased margin-top for additional space above the table */
+}
+
+.bp4-html-table th, 
+.bp4-html-table td {
+    color:#000000;
+    border: 1px solid #282c34;
+    padding: 12px 10px; /* Adjust padding as needed */
+    background-color: rgb(255, 255, 255);
+    text-align: center; /* Center the text within cells */
+    white-space: nowrap; /* Prevent text from wrapping within cells */
+}
+
+.bp4-html-table thead th {
+    background-color: #345daf;
+    color: #ffffff;
+}
+
+.bp4-html-table tbody td {
+    overflow: hidden; /* Hide any content overflowing */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+}
+
+/* Optional: Adjust styles for smaller screens */
+@media (max-width: 768px) {
+    .bp4-html-table th, 
+    .bp4-html-table td {
+        font-size: 0.9em; /* Slightly reduce font size on smaller screens */
+        padding: 8px 5px; /* Reduce padding for smaller screens */
+    }
+}
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  .patient-details {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .patient-details th, .patient-details td {
+    border: 1px solid #444444;
+    padding: 8px;
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  
+  .patient-details th {
+    background-color: #345daf;
+    color: #f9f8f8;
+  }
+  
+  .patient-details tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .departments-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+
+
+
+
+
+.departments-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.department-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.department-item:hover {
+    transform: translateY(-5px);
+}
+
+.department-item h2 {
+    color: #3329b9; /* Blue color for department titles */
+    margin-bottom: 10px;
+}
+
+.department-item h3 {
+    margin-top: 15px;
+    color: #8e44ad; /* Purple color for service titles */
+}
+
+.department-item p {
+    line-height: 1.5;
+}
+
+.department-item ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #000000;
+}
+
+
+.careers-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50; /* Dark blue color */
+    margin-bottom: 30px;
+}
+
+.intro-text {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.job-listing h2 {
+    color: #2980b9; /* Blue color */
+    margin-bottom: 20px;
+}
+
+.job-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-item h3 {
+    color: #2980b9; /* Blue for job titles */
+    margin-bottom: 10px;
+}
+
+.job-item h4 {
+    margin-top: 15px;
+    color: #8e44ad; /* Purple for requirements */
+}
+
+.job-item ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+.apply-button {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 15px;
+}
+
+.apply-button:hover {
+    background-color: #1e6091;
+}
+
+.why-join-us {
+    margin-top: 50px;
+}
+
+.why-join-us h2 {
+    color: #2980b9;
+    margin-bottom: 20px;
+}
+
+.why-join-us ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+

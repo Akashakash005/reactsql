@@ -1,0 +1,66 @@
+/*-------- Book an Appointment Form --------*/
+.appointment-form {
+    min-height: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+.appointment-form h2 {
+    text-align: center;
+    color: #001f3f;
+    margin-bottom: 15px;
+    font-size: 2.0em;
+}
+
+.appointment-form .patient-group {
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+.appointment-form .patient-group label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+    width: 150px;
+}
+
+.appointment-form .patient-group input,
+.appointment-form .patient-group select {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.appointment-form button[type="submit"] {
+    background-color: #001f3f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+
+.appointment-history-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    margin: 20px auto; /* Centering horizontally with auto margins */
+    display: flex;
+    flex-direction: column; /* Allows stacking elements vertically */
+    width: 60%; /* Width of the container */
+    
+}
+

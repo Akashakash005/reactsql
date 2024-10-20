@@ -1,0 +1,53 @@
+/* Container for the entire blog list */
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;  /* Allows wrapping to the next line if the screen is narrow */
+  gap: 20px;  /* Space between each blog item */
+  justify-content: center;
+}
+
+/* Each individual blog item */
+.blog-item {
+  display: flex;
+  flex-direction: row;  /* Align content horizontally */
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 600px;  /* Control the max width of each item */
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Image style */
+.blog-image {
+  width: 150px;  /* Set a fixed width for the image */
+  height: 150px;
+  object-fit: cover;  /* Ensures the image fills the box while keeping aspect ratio */
+  border-radius: 8px;
+  margin-right: 20px;  /* Space between the image and text content */
+}
+
+/* Blog content style */
+.blog-content h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.blog-content p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.blog-content a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.blog-content a:hover {
+  text-decoration: underline;
+}

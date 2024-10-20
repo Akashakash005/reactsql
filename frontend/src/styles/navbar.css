@@ -1,0 +1,48 @@
+/* navbar.css */
+.top-navbar, .bot-navbar {
+    color: #fff;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 50px;
+    z-index: 5;
+}
+
+.top-navbar a, .bot-navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    border-radius: 25px;
+    
+    border: 1px solid white;
+}
+
+.top-navbar a:hover, .bot-navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ff7f7f;
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 #ff7f7f;
+    
+}
+
+.top-navbar h2{
+    padding:20px;
+}
+
+/* Dropdown specific styles */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 20%, rgba(0,212,255,1) 100%);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

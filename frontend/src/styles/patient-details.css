@@ -1,0 +1,26 @@
+.dashboard-container {
+    padding: 20px;
+}
+
+.patient-details {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.patient-details th, .patient-details td {
+    border: 1px solid #444444;
+    padding: 8px;
+    text-align: left;
+    background-color: #f2f2f2;
+    font-size: 15px;
+}
+
+.patient-details th {
+    background-color: #345daf;
+    color: #f9f8f8;
+    font-size: 20px;
+}
+
+.patient-details tr:hover {
+    background-color: #f1f1f1;
+}

@@ -1,0 +1,42 @@
+.table-container {
+    overflow-x: auto;
+    width: 100%;
+    margin: 10px auto 0;
+}
+
+.bp4-html-table {
+    width: max-content;
+    border-collapse: collapse;
+    position: relative;
+    overflow-x: auto;
+    
+}
+
+.bp4-html-table th, 
+.bp4-html-table td {
+    color: #000000;
+    border: 1px solid #282c34;
+    padding: 12px 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.bp4-html-table thead th {
+    background-color: #345daf;
+    color: #ffffff;
+}
+
+.bp4-html-table tbody td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .bp4-html-table th, 
+    .bp4-html-table td {
+        font-size: 0.9em;
+        padding: 8px 5px;
+    }
+}

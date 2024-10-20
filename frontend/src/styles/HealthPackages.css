@@ -1,0 +1,55 @@
+.packages-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50; /* Dark blue color */
+    margin-bottom: 30px;
+}
+
+.intro-text {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.packages-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.packages-table th, .packages-table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.packages-table th {
+    background-color: #2980b9; /* Blue color for header */
+    color: white;
+}
+
+.packages-table td {
+    background-color: #f9f9f9;
+}
+
+.book-button {
+    background-color: #2980b9;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.book-button:hover {
+    background-color: #1e6091;
+}

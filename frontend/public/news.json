@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Introducing XYZ Group of Hospitals Latest Clinic A New Healthcare Destination at Chennai Airport",
+      "summary": "XYZ Group of Hospitals announces the opening of its state-of-the-art clinic at Chennai Airport, designed to provide swift and efficient medical care for travellers and airport personnel, so that health and wellness are prioritized in one of the busiest transit...",
+      "date": "2024-10-15",
+      "detailsLink": "/news/chennai-airport-clinic"
+    },
+    {
+      "id": 2,
+      "title": "XYZ Hospital Vadapalani Performs TAVR Procedure in India with the Vienna Valve System",
+      "summary": "Chennai, Representing a key leap forward in medical technology, XYZ Hospital Vadapalani has skilfully introduced the advanced Transcatheter Aortic Valve Replacement (TAVR) procedure using the state-of-the-art Vienna Valve System. This cutting-edge technology marks a big leap in the treatment of severe...",
+      "date": "2024-10-10",
+      "detailsLink": "/news/tavr-procedure-vadapalani"
+    },
+    {
+      "id": 3,
+      "title": "Treatment with Endoscopic Percutaneous Disc Surgery gives a new lease of life to a long-term back pain patient, at Tirunelveli XYZ Hospital",
+      "summary": "Tirunelveli XYZ Hospital, one of the leading multi-specialty healthcare hospital chains in India has always been at the forefront of medical treatment, technology and services. A female patient aged 48 years approached XYZ hospital with complaints of long-term back pain...",
+      "date": "2024-10-05",
+      "detailsLink": "/news/endoscopic-disc-surgery"
+    },
+    {
+      "id": 4,
+      "title": "XYZ Hospital Alwarpet Transforms Life of Young Sri Lankan with Parkinson’s Disease through Deep Brain Stimulation Surgery",
+      "summary": "Chennai, 3rd October 2024 : XYZ Hospital Alwarpet has announced the completion of its first Deep Brain Stimulation (DBS) surgery, marking a significant step in the hospital's advanced neurological care. This complex procedure was performed on a 37-year-old patient who...",
+      "date": "2024-10-03",
+      "detailsLink": "/news/deep-brain-stimulation-surgery"
+    },
+    {
+      "id": 5,
+      "title": "XYZ Hospital Hosts Successful Nellai XYZ Marathon: “Run for Your Healthy Heart”",
+      "summary": "Tirunelveli, September 22, 2024 – XYZ Hospital proudly organized the inaugural 'Nellai XYZ Marathon,' attracting over 4,500 enthusiastic participants dedicated to promoting heart health. With the theme “Run for Your Healthy Heart,” the marathon aimed to raise awareness about heart...",
+      "date": "2024-09-22",
+      "detailsLink": "/news/nellai-XYZ-marathon"
+    }
+  ]
+  

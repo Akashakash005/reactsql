@@ -1,0 +1,51 @@
+/*-------- Check Form --------*/
+.check-form {
+    max-height: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.check-form h2 {
+    color: #001f3f;
+    margin-bottom: 30px;
+    font-size: 2.0em;
+}
+
+.check-form .check-group {
+    margin-bottom: 15px;
+}
+
+.check-form .check-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.check-form .check-group input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+}
+
+.check-form button[type="submit"] {
+    background-color: #001f3f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}

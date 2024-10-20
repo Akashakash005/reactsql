@@ -1,0 +1,81 @@
+.news-events-container {
+    display: flex;
+    padding: 20px;
+   
+  }
+  
+  .news-section {
+    flex: 0 0 70%; /* 70% of the width */
+    padding-right: 20px; /* Space between news and events */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align the cards */
+  }
+  
+  .events-section {
+    flex: 0 0 30%; /* 30% of the width */
+    background-color: #003366; /* Dark blue background */
+    color: white; /* White text color for better contrast */
+    padding: 10px; /* Padding inside events section */
+    border-radius: 8px; /* Rounded corners */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align the cards */
+  }
+
+  .events-section h1{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Individual news or event item */
+  .news-item,
+  .event-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff; /* White background for news items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; /* Space between items */
+    padding: 10px; /* Padding for each item */
+    
+  }
+.news-item{
+    width: 70%;/*  card takes 70% of the news section */
+}
+  .event-item{
+    width: 90%;
+  }
+  
+  /* Styles for title and summary */
+  .news-content h2,
+  .event-content h2 {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .news-content p,
+  .event-content p {
+    font-size: 0.9rem;
+    color: #666; /* Grey text color for summaries */
+  }
+  
+  /* Link styles */
+  .news-content a,
+  .event-content a {
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none;
+  }
+  
+  .news-content a:hover,
+  .event-content a:hover {
+    text-decoration: underline;
+  }
+  

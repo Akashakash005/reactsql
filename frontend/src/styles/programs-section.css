@@ -1,0 +1,75 @@
+/*--------Programs Section-----------*/
+.programs-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 110px; /* Space to fit the sidebar */
+}
+
+.programs-section .left-content {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.programs-section .left-content h2 {
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    background-color: rgba(0, 23, 114, 0.89); /* Black with 50% opacity */
+    padding: 10px; /* Add some padding */
+    border-radius: 5px; /* Optional: for rounded corners */
+    color: white; /* White text color */
+}
+
+
+
+.programs-section .left-content p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.programs-section .left-content ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.programs-section .left-content ul li {
+    margin-bottom: 15px;
+    flex: 1 1 calc(50% - 10px);
+}
+
+.programs-section .left-content ul li .number {
+    font-size: 2em;
+    font-weight: bold;
+    color: #001f3f;
+    display: block;
+}
+
+.programs-section .left-content ul li .statement {
+    font-size: 1em;
+    color: #555;
+    display: block;
+    margin-top: 5px;
+}
+
+.programs-section .right-content {
+    flex: 1;
+    max-width: 60%; /* Adjust this value based on the desired image size */
+}
+
+.programs-section .right-content img {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "title": "Medical Camp for Senior Citizens",
+      "summary": "Join us at our free medical camp for senior citizens. Enjoy complimentary health check-ups and consultations from our expert doctors. Don’t miss this opportunity to prioritize your health.",
+      "date": "2024-12-05",
+      "image": "/images/senior-citizen-camp.jpg",
+      "detailsLink": "/events/senior-citizen-camp"
+    },
+    {
+      "id": 2,
+      "title": "Launch of Advanced Oncology Unit",
+      "summary": "Our hospital is proud to launch an advanced oncology unit. This unit is equipped with the latest technology to provide exceptional cancer care. Join us for the inauguration and learn more about our services.",
+      "date": "2024-12-20",
+      "image": "/images/oncology-unit-launch.jpg",
+      "detailsLink": "/events/oncology-unit-launch"
+    },
+    {
+      "id": 3,
+      "title": "Annual Health Awareness Workshop",
+      "summary": "Attend our annual health awareness workshop focusing on preventive care. Learn about the importance of regular check-ups and healthy lifestyle choices. Experts will share tips and answer your health questions.",
+      "date": "2024-11-15",
+      "image": "/images/health-workshop.jpg",
+      "detailsLink": "/events/health-awareness-workshop"
+    },
+    {
+      "id": 4,
+      "title": "Blood Donation Camp",
+      "summary": "Join us for a blood donation camp to support those in need. Every drop counts, and your donation can save lives. Enjoy refreshments after donating and receive a donor certificate.",
+      "date": "2024-11-30",
+      "image": "/images/blood-donation-camp.jpg",
+      "detailsLink": "/events/blood-donation-camp"
+    },
+    {
+      "id": 5,
+      "title": "Yoga and Wellness Retreat",
+      "summary": "Participate in our Yoga and Wellness Retreat for relaxation and rejuvenation. Experience various yoga sessions and wellness workshops led by experienced instructors. Reconnect with your mind and body in a serene environment.",
+      "date": "2024-12-10",
+      "image": "/images/yoga-retreat.jpg",
+      "detailsLink": "/events/yoga-retreat"
+    }
+]

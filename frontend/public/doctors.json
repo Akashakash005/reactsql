@@ -1,0 +1,144 @@
+[
+    {
+      "department": "Cardiology",
+      "doctors": [
+        "Dr. John Corner",
+        "Dr. Sarah Patel",
+        "Dr. Michael Zhang",
+        "Dr. Emily Roberts",
+        "Dr. William Lee"
+      ]
+    },
+    {
+      "department": "Oncology",
+      "doctors": [
+        "Dr. Kamali Sharma",
+        "Dr. Priya Nair",
+        "Dr. Steve Joseph",
+        "Dr. Arjit Singh",
+        "Dr. Rebecca Hall"
+      ]
+    },
+    {
+      "department": "Nephrology and Urology",
+      "doctors": [
+        "Dr. Bhanupriya Rao",
+        "Dr. Kumar S",
+        "Dr. Vijay Patel",
+        "Dr. Anita Mehta",
+        "Dr. Rajesh Agarwal"
+      ]
+    },
+    {
+      "department": "Orthopaedics",
+      "doctors": [
+        "Dr. Samuel Edwards",
+        "Dr. Rohan Kumar",
+        "Dr. Nina Singh",
+        "Dr. Albert Williams",
+        "Dr. Kavita Gupta"
+      ]
+    },
+    {
+      "department": "Neurology",
+      "doctors": [
+        "Dr. Neha Malhotra",
+        "Dr. Rajiv Iyer",
+        "Dr. Susan Lee",
+        "Dr. David Park",
+        "Dr. Ayesha Khan"
+      ]
+    },
+    {
+      "department": "Gastroenterology",
+      "doctors": [
+        "Dr. Anita Rao",
+        "Dr. Mohan Kapoor",
+        "Dr. Jenny Thomas",
+        "Dr. Vikram Sinha",
+        "Dr. David Mathews"
+      ]
+    },
+    {
+      "department": "Pediatrics",
+      "doctors": [
+        "Dr. Preeti Deshmukh",
+        "Dr. Sanjay Gupta",
+        "Dr. Kavya Rao",
+        "Dr. Linda White",
+        "Dr. Aman Kapoor"
+      ]
+    },
+    {
+      "department": "Gynecology and Obstetrics",
+      "doctors": [
+        "Dr. Radhika Iyer",
+        "Dr. Meenakshi Menon",
+        "Dr. Shruti Agarwal",
+        "Dr. Anjali Desai",
+        "Dr. Sophie Matthews"
+      ]
+    },
+    {
+      "department": "Dermatology",
+      "doctors": [
+        "Dr. Nisha Sharma",
+        "Dr. Parth Shah",
+        "Dr. Emily Williams",
+        "Dr. Anupama Roy",
+        "Dr. Nathan James"
+      ]
+    },
+    {
+      "department": "Physical Therapy",
+      "doctors": [
+        "Dr. Prakash Rao",
+        "Dr. Mary Cooper",
+        "Dr. Rajesh Gupta",
+        "Dr. Priyanka Mehta",
+        "Dr. James Perry"
+      ]
+    },
+    {
+      "department": "Radiology",
+      "doctors": [
+        "Dr. Rahul Nair",
+        "Dr. Maria Gonzalez",
+        "Dr. Aditya Jain",
+        "Dr. Lisa Kim",
+        "Dr. Arthur Morgan"
+      ]
+    },
+    {
+      "department": "Psychiatry",
+      "doctors": [
+        "Dr. Elizabeth George",
+        "Dr. Sameer Khan",
+        "Dr. Priya Joshi",
+        "Dr. Akash Verma",
+        "Dr. Sarah Wilson"
+      ]
+    },
+    {
+      "department": "Endocrinology",
+      "doctors": [
+        "Dr. Harshita Singh",
+        "Dr. Arun Patel",
+        "Dr. Manisha Rao",
+        "Dr. Suresh Kumar",
+        "Dr. Albert Thomas"
+      ]
+    },
+
+    {
+      "department": "general",
+      "doctors": [
+        "Dr. Kuldeep Singh",
+        "Dr. Rakesh Patel",
+        "Dr. Monish",
+        "Dr. Akash Kumar",
+        "Dr. Sujitha Pradeep"
+      ]
+    }
+  ]
+  
