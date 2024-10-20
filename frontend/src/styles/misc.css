@@ -24,12 +24,18 @@
     padding: 20px;
 }
 
-/* Slideshow container */
+
 .slideshow-container {
     position: relative;
-    max-width: calc(100vh-(30px));
-clip-path: inset(0 0 0 0);
-    height: 600px; /* Set the desired height */
-    overflow: hidden; /* Ensure content overflow is hidden */
+    width: 100%; /* Make the container width responsive */
+    max-width: 100%; /* Ensure it doesn’t overflow */
+    height: 600px; /* Fixed height */
+    overflow: hidden; /* Prevent overflow */
     margin-left: 30px;
-    }
+}
+
+.slideshow-container img {
+    width: 100%; /* Ensure the image spans the container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures the image fills the container without stretching */
+}

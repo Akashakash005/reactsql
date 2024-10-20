@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <div className="slideshow-container">
-        <img src="./images/img_hospital.jpg" style={{ width: "100%" }} />
+        <img src="./images/img_hospital.jpg" alt="img_hospital" />
       </div>
       <div className="programs-section">
         <div className="left-content">

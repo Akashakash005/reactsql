@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import axios from "axios";
 import RegularAppointment from "../components/RegularAppointment";
 import AppointmentHistory from "../components/AppointmentHistory";
 
 const PatientDashboard = ({ setIsLoggedIn }) => {
   const { id } = useParams(); // Get patient ID from URL
-  const [userName, setUserName] = useState("");
+  // const [username, setUserName] = useState("");
   const [patient, setPatient] = useState(null); // Initialize patient as null
   const [appointments, setAppointments] = useState([]); // State for appointments
   const [loading, setLoading] = useState(true); // Loading state
   const [error, setError] = useState(null); // Error state
-  const navigate = useNavigate();
 
   // Fetch patient data
   useEffect(() => {
@@ -24,7 +23,8 @@ const PatientDashboard = ({ setIsLoggedIn }) => {
 
         if (response.data) {
           setPatient(response.data);
-          setUserName(`${response.data.firstname} ${response.data.lastname}`);
+
+          // setUserName(`${response.data.firstname} ${response.data.lastname}`);
         } else {
           setError("No user data returned");
         }
@@ -37,12 +37,7 @@ const PatientDashboard = ({ setIsLoggedIn }) => {
     };
 
     fetchUserData(); // Fetch user data on component mount
-  }, [id]);
-
-  const handleLogout = () => {
-    setIsLoggedIn(false);
-    navigate("/");
-  };
+  }, [id]); // Add setUserName to the dependency array
 
   return (
     <main>

@@ -9,7 +9,7 @@ const AboutUs = () => {
           <div className="overview">
             <h2>Experience World-Class Care at XYZ Hospital</h2>
             <div className="years-experience">
-              <img src="/images/anniversary.png" />
+              <img src="/images/anniversary.png" alt="anniversary.png" />
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="group-img">
-              <img src="/images/hospital.jpg" />
+              <img src="/images/hospital.jpg" alt="hospital.jpg" />
             </div>
           </div>
         </div>

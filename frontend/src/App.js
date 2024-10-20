@@ -43,8 +43,8 @@ import SignUp from "./pages/SignUp";
 import Appointments from "./pages/Appointments";
 import NewAppointment from "./components/NewAppointment";
 import Departments from "./pages/Departments";
-import New_Appointments from "./pages/New_Appointments";
-import { ServerInstall } from "@blueprintjs/icons";
+import UnregAppointments from "./pages/UnregAppointments";
+
 import Services from "./pages/Services";
 import Careers from "./pages/Careers";
 import HealthPackages from "./pages/HealthPackages";
@@ -95,7 +95,7 @@ function App() {
           />
           <Route
             path="/dashboard/:id/new-appointments"
-            element={<New_Appointments />}
+            element={<UnregAppointments />}
           />
           <Route path="/departments" element={<Departments />} />
           <Route path="/services" element={<Services />} />

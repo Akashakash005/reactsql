@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams, Link, useNavigate } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import axios from "axios";
 import "@blueprintjs/core/lib/css/blueprint.css";
 import { Button, EditableText } from "@blueprintjs/core";
@@ -8,7 +8,6 @@ const Dashboard = ({ setIsLoggedIn }) => {
   const { id } = useParams();
   const [userName, setUserName] = useState("");
   const [patients, setPatients] = useState([]);
-  const navigate = useNavigate();
 
   //fetch the name by the id
 
@@ -100,11 +99,6 @@ const Dashboard = ({ setIsLoggedIn }) => {
     } catch (error) {
       console.error("Error deleting patient data", error);
     }
-  };
-
-  const handlelogout = () => {
-    setIsLoggedIn(false);
-    navigate("/");
   };
 
   return (

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer>
@@ -12,16 +13,16 @@ export default function Footer() {
           <h3>Main Navigation</h3>
           <ul>
             <li>
-              <a href="#">About Us</a>
+              <Link to="#">About Us</Link>
             </li>
             <li>
-              <a href="#">Services</a>
+              <Link to="#">Services</Link>
             </li>
             <li>
-              <a href="#">Facilities</a>
+              <Link to="#">Facilities</Link>
             </li>
             <li>
-              <a href="#">Careers</a>
+              <Link to="#">Careers</Link>
             </li>
           </ul>
         </div>
@@ -29,13 +30,13 @@ export default function Footer() {
           <h3>Sister Concerns</h3>
           <ul>
             <li>
-              <a href="#">XYZ Medical College</a>
+              <Link to="#">XYZ Medical College</Link>
             </li>
             <li>
-              <a href="#">XYZ Research Center</a>
+              <Link to="#">XYZ Research Center</Link>
             </li>
             <li>
-              <a href="#">XYZ Clinics</a>
+              <Link to="#">XYZ Clinics</Link>
             </li>
           </ul>
         </div>
@@ -43,13 +44,13 @@ export default function Footer() {
           <h3>Quick Links</h3>
           <ul>
             <li>
-              <a href="#">Apply Now</a>
+              <Link to="#">Apply Now</Link>
             </li>
             <li>
-              <a href="#">Admission</a>
+              <Link to="#">Admission</Link>
             </li>
             <li>
-              <a href="#">Contact Us</a>
+              <Link to="#">Contact Us</Link>
             </li>
           </ul>
           <p>Follow Us</p>
