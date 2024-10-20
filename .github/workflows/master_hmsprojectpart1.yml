@@ -56,7 +56,7 @@ jobs:
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-    
+
     steps:
       - name: Download artifacts from build job
         uses: actions/download-artifact@v4
@@ -70,22 +70,22 @@ jobs:
       - name: Unzip backend artifact for deployment
         run: unzip backend.zip -d backend
 
-      # Deploy to Azure Web App for Backend
-      - name: 'Deploy Backend to Azure Web App'
-        id: deploy-backend
-        uses: azure/webapps-deploy@v3
-        with:
-          app-name: 'hmsprojectpart1-backend'  # Change to your backend app name
-          slot-name: 'Production'
-          package: ./backend  # Path to your backend directory
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0B9D40F77D7342E7B71DC94A72625176 }}
-
       # Deploy to Azure Web App for Frontend
       - name: 'Deploy Frontend to Azure Web App'
         id: deploy-frontend
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'hmsprojectpart1-frontend'  # Change to your frontend app name
+          app-name: 'hmsprojectpart1'  # Your frontend app name
           slot-name: 'Production'
           package: ./frontend  # Path to your frontend directory
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0B9D40F77D7342E7B71DC94A72625176 }}
+
+      # Deploy to Azure Web App for Backend
+      - name: 'Deploy Backend to Azure Web App'
+        id: deploy-backend
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'hmsprojectpart1'  # Your backend app name
+          slot-name: 'Production'
+          package: ./backend  # Path to your backend directory
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0B9D40F77D7342E7B71DC94A72625176 }}
