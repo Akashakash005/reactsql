@@ -23,18 +23,21 @@ jobs:
 
       - name: npm install, build, and test
         run: |
+          cd reactsql/backend
           npm install
           npm run build --if-present
           npm run test --if-present
 
       - name: Zip artifact for deployment
-        run: zip release.zip ./* -r
+        run: |
+          cd reactsql/backend
+          zip -r release.zip ./*
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: release.zip
+          path: reactsql/backend/release.zip
 
   deploy:
     runs-on: ubuntu-latest
@@ -50,7 +53,7 @@ jobs:
           name: node-app
 
       - name: Unzip artifact for deployment
-        run: unzip release.zip
+        run: unzip release.zip -d reactsql/backend
       
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -58,5 +61,5 @@ jobs:
         with:
           app-name: 'hmsprojectpart1-backend'
           slot-name: 'Production'
-          package: .
+          package: reactsql/backend
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6531281D103A416DBF68A48AA77A4694 }}
